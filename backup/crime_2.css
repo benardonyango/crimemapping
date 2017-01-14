@@ -1,0 +1,309 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    font-size: 100%;
+        margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+
+*::-moz-selection {
+    background: #aaaaaa none repeat scroll 0 0;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.outer {
+    background-image: url("https://www.crimereports.com/assets/header_hp_bg-2b2c932d037eb1a8789f0bf4d826fd5c.png");
+    background-position: center top;
+    background-repeat: repeat-x;
+}
+
+
+.outer {
+    background-image: url("https://www.crimereports.com/assets/header_hp_bg-2b2c932d037eb1a8789f0bf4d826fd5c.png");
+    background-position: center top;
+    background-repeat: repeat-x;
+}
+
+
+.header {
+    height: 94px;
+    text-align: left;
+    background: linear-gradient(to left, #5A3F37 , #2C7744); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+
+.header .right {
+    float: right;
+    height: 86px;
+    position: relative;
+    text-align: right;
+    width: 450px;
+}
+
+
+
+.fight-crime {
+    background-color: #002e52;
+
+    background-image: -moz-linear-gradient(top, #ffffff, #999999);
+    border-color: rgba(166, 170, 172, 0.5);
+    border-radius: 0 0 13px 13px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 4px 20px 5px 0px;
+    position: absolute;
+    right: 30;
+    text-align: center;
+    width: 380px;
+    height:55;
+    margin:0 800px 0;
+}
+
+
+.fight-crime div {
+    color: white;
+    font-size: 17px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+
+.btn-action {
+    /*background: #febe46 -moz-linear-gradient(center top , #febe46 5%, #fd732e 100%) repeat scroll 0 0;*/
+    /*background: linear-gradient(to left, #43cea2 , #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #136a8a , #267871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 8px ;
+    text-decoration: none;
+    margin-right:-50px;
+    margin-top:6px;
+}
+
+
+
+.header .logo {
+    float: left;
+    margin: 21px 0 0 100px;
+
+}
+
+
+
+.header span {
+    color: #8ccdfc;
+    display: block;
+    float: left;
+    margin: 38px 0 0 3px;
+    padding: 0;
+}
+
+
+.header span a.selected {
+    text-decoration: none;
+     margin: 0px 0 0 10px;
+}
+.header span a {
+    color: #8ccdfc;
+    font-weight: normal;
+}
+
+*::-moz-selection {
+    background: #aaaaaa none repeat scroll 0 0;
+    color: #fff;
+    text-shadow: none;
+}
+
+.mainNav {
+    height: 41px;
+}
+
+
+.mainNav ul {
+    display: block;
+    float: right;
+    height: 31px;
+    line-height: normal;
+    list-style: outside none none;
+    margin: 5px 0 0;
+    padding: 0;
+}
+
+.mainNav ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainNav ul li a {
+    background-image: url("https://www.crimereports.com/assets/top_nav_arrow-580c02cfaf59c1406840f7e70aced78c.png");
+    background-position: right 14px;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    color: #ffffff;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 0 2px;
+    padding: 7px 15px 8px 12px;
+    text-decoration: none;
+}
+
+*::-moz-selection {
+    background: #aaaaaa none repeat scroll 0 0;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+
+.mainNav .search {
+    border-right: 1px solid #787a7b;
+    float: left;
+    line-height: 0;
+    margin: 7px 0 0;
+    padding: 0 0 0 7px;
+    text-align: left;
+    width: 550px;
+}
+
+
+.mainNav .search form {
+    margin: 0 200px;
+    padding: 0;
+}
+
+
+#crAddressText {
+    background-color: transparent;
+    background-image: url("https://www.crimereports.com/assets/search_field-fc8604a8620293a2c6e3180fbffc0c30.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    border: medium none;
+    color: #a7a9ac;
+    display: inline-block;
+    font-size: 14px;
+    height: 25px;
+    margin: 0;
+    padding: 7px 6px 5px;
+    width: 350px;
+}
+
+*::-moz-selection {
+    background: #aaaaaa none repeat scroll 0 0;
+    color: #fff;
+    text-shadow: none;
+}
+
+.mainNav .search form .searchSubmit {
+    margin: -26 0 0 350px;
+    padding: 0;
+    vertical-align: top;
+   /* background: linear-gradient(to left, #43cea2 , #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+*::-moz-selection {
+    background: #aaaaaa none repeat scroll 0 0;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+
+#map {
+    position: absolute;
+}
+
+
+
+#map {
+    position: absolute;
+}
+
+
+
+#map{
+    border: 1px solid blue;
+    bottom: 5px;
+    left: 0;
+    min-width: 1024px;
+    position: absolute;
+    top: 137px;
+    width: 100%;
+}
+
+
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 5px;
+}
+
+
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 5px;
+}
+
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 5px;
+}
+
+
+
+
+
+
+
+
+.gm-style {
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+
+.gmnoprint {
+    position: absolute;
+    left: 0px;
+    top: 5px !important;
+    right: -1300px;
+}
+
+
