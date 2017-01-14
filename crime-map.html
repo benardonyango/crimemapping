@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Crime Map - USALAMA</title>
+		<title>USALAMA - Home</title>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -40,13 +40,41 @@
 .wsite-product .wsite-product-price a {}
 </style>
 
+
+
+
 		<script><!--
 var STATIC_BASE = '//cdn1.editmysite.com/';
 var STYLE_PREFIX = 'wsite';
 //-->
 </script>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    
+    <!-- Load jQuery JS -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="jquery-ui-1.11.4/external/jquery/jquery.js"></script>
+    <!-- Load jQuery UI Main JS  -->
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="jquery-ui-1.11.4/jquery-ui.js"></script>
+     <script type="text/javascript">
 
+$(document).ready(
+  
+  /* This is the function that will get executed after the DOM is fully loaded */
+  function () {
+    $( "#datepicker" ).datepicker({
+      changeMonth: true,//this option for allowing user to select month
+      changeYear: true //this option for allowing user to select from year range
+    });
+  }
+
+);
+
+     </script>
+     <script src="OpenLayerss/OpenLayers.js"></script>
+<link rel="stylesheet" type="text/css" href="OpenLayerss/theme/default/style.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/ftl.js?buildTime=1234"></script><script>_W.relinquish && _W.relinquish()</script>
 <script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"><!--
 	var IS_ARCHIVE = 1;
@@ -55,7 +83,7 @@ var STYLE_PREFIX = 'wsite';
 		function initFlyouts(){
 			initPublishedFlyoutMenus(
 				[{"id":"586336429726359027","title":"Home","url":"index.html","target":""},{"id":"317889435680547060","title":"About","url":"about.html","target":""},{"id":"351710382679289637","title":"Crime Map","url":"crime-map.html","target":""},{"id":"634954653147283503","title":"Report Crime","url":"report-crime.html","target":""},{"id":"373020637116218790","title":"Contact","url":"contact.html","target":""}],
-				"351710382679289637",
+				"586336429726359027",
 				'',
 				'active',
 				false,
@@ -72,12 +100,16 @@ var STYLE_PREFIX = 'wsite';
 	})(window._W && _W.jQuery)
 //-->
 </script>
+
+
+
+ 
 		
 	</head>
-	<body class="tall-header-page  wsite-theme-light  wsite-page-crime-map"><div id="wrapper">
+	<body class="landing-page  wsite-theme-light  wsite-page-index"><div id="wrapper">
 
   <div id="header">
-    <div id="masthead">
+  <!--  <div id="masthead">
       <div id="masthead-wrap">
         <div class="sitename"><span class="wsite-logo">
 
@@ -90,9 +122,10 @@ var STYLE_PREFIX = 'wsite';
 </span></div>      
         <div id="sitesearch"></div>      
       </div>
-    </div>
+    </div>-->
 
     <div id="navigation">
+    	
      	<div id="search"><a href="apps/search"></a></div>
       <a id="mobile" class="hamburger" href="#"><span class="mobile-bar"></span><span class="mobile-bar"></span><span class="mobile-bar"></span></a>
       <div class="sitename"><span class="wsite-logo">
@@ -106,7 +139,7 @@ var STYLE_PREFIX = 'wsite';
 </span></div>      
       <div id="navigation-wrap">
    	 	<div id="nav"><ul class="wsite-menu-default">
-		<li id="pg586336429726359027"
+		<li id="active"
 			class="wsite-menu-item-wrap"
 			>
 			<a href="index.html"
@@ -128,7 +161,7 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		<li id="active"
+		<li id="pg351710382679289637"
 			class="wsite-menu-item-wrap"
 			>
 			<a href="crime-map.html"
@@ -142,7 +175,7 @@ var STYLE_PREFIX = 'wsite';
 		<li id="pg634954653147283503"
 			class="wsite-menu-item-wrap"
 			>
-			<a href="report-crime.html"
+			<a href="index.html#landing-scroll"
 				
 				class="wsite-menu-item"
 				>
@@ -164,7 +197,7 @@ var STYLE_PREFIX = 'wsite';
 </ul>
 </div>
    	 	<div id="navmobile"><ul class="wsite-menu-default">
-		<li id="pg586336429726359027"
+		<li id="active"
 			class="wsite-menu-item-wrap"
 			>
 			<a href="index.html"
@@ -186,7 +219,7 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		<li id="active"
+		<li id="pg351710382679289637"
 			class="wsite-menu-item-wrap"
 			>
 			<a href="crime-map.html"
@@ -200,7 +233,7 @@ var STYLE_PREFIX = 'wsite';
 		<li id="pg634954653147283503"
 			class="wsite-menu-item-wrap"
 			>
-			<a href="report-crime.html"
+			<a href="index.html#landing-scroll"
 				
 				class="wsite-menu-item"
 				>
@@ -224,35 +257,16 @@ var STYLE_PREFIX = 'wsite';
      	<div id="social"></div>
       </div>
   	</div>
-  </div>
 
-  <div id="main">
-    
-    <div id="banner-wrap">
-	    <div class="wsite-background"></div>
-      <div id="banner">
-        <div id="banner-content">
-          <h2></h2>
-        </div>
-  		</div>
-    </div>
-    
-    <div id="content-wrapper">
-  		<div id="content"><div id='wsite-content' class='wsite-elements wsite-not-footer'>
-</div>
-</div>
-  	</div>
-    
-  	<div id="footer">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="site web gratuit">Weebly</a></div>
 
-  </div>	
 
-</div>
-<script type="text/javascript" src="files/theme/plugins.js"></script>
-<script type="text/javascript" src="files/theme/custom.js"></script>
-<script type="text/javascript" src="files/theme/mobile.js"></script>
+	<div id="map2"  >
 
-		
+
+
+	<script type="text/javascript" src="crime-map.js"></script></div>
+
+	<div id="legend"><img src="legend.jpg" width="1900"></div>
 		
 	</body>
 </html>

@@ -45,17 +45,30 @@ map.addLayer(markers);
 
 var size = new OpenLayers.Size(38,38);
 
-var icon = new OpenLayers.Icon('red-dot.png',size);
+var icon = new OpenLayers.Icon('marker.png',size);
 
 
 //icon = new OpenLayers.Icon('red-dot.png');
 
 
 map.events.register("click", map, function(evt) {
-    var pos = map.getLonLatFromViewPortPx(evt.xy);
+    var lonlat = map.getLonLatFromViewPortPx(evt.xy);
    // var pos = map.getLonLatFromPixel(evt.xy);
-   markers.addMarker(new OpenLayers.Marker(pos,icon));
+   markers.addMarker(new OpenLayers.Marker(lonlat,icon));
+
+var proj_4326 = new OpenLayers.Projection('EPSG:4326');
+var proj_900913 = new OpenLayers.Projection('EPSG:900913');
+var hdms = new OpenLayers.LonLat(lonlat.lon, lonlat.lat);
+hdms.transform(proj_900913,proj_4326 );
 
 
-   
+//var hdms= new OpenLayers.Projection.transform  (lonlat,'EPSG:900913','EPSG:4326');
+
+
+document.getElementById('element_12_1').value= hdms.lon ;
+document.getElementById('element_12_2').value= hdms.lat;
 });
+
+
+
+

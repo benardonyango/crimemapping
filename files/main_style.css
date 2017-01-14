@@ -31,7 +31,7 @@
  }
  #header { position: absolute; width: 100%; top: 0; left: 0; box-sizing: border-box; z-index: 13; }
  #masthead { width: 100%; position: relative; background: rgba(0, 0, 0, .7); text-align: right; z-index: 13; }
- #masthead-wrap { display: table; width: 100%; max-width: 1140px; padding: 0 2em; height: 88px; margin: 0 auto; vertical-align: middle; box-sizing: border-box; }
+ #masthead-wrap { display: table; width: 100%; max-width: 1140px; padding: 0 2em; height: 60px; margin: 0 auto; vertical-align: middle; box-sizing: border-box; }
  .wsite-logo img { max-height: 70px; }
  #masthead .sitename { display: table-cell; width: 50%; text-align: left; max-width: 60%; vertical-align: middle; }
  .wsite-logo a { font-family: 'Montserrat'; font-size: 1.75em; font-weight: 700; color: #ffffff; }
@@ -43,7 +43,7 @@
  #header .wsite-search-button { position: absolute; right: 0; width: 26px; height: 26px; background: url(theme/images/masthead-search.png?1457125229) no-repeat center center; }
  #search a { display: block; width: 26px; height: 26px; background: url(theme/images/masthead-search.png?1457125229) no-repeat center center; }
  #masthead .wsite-search-input:active, #masthead .wsite-search-input:focus { border-bottom: 1px solid #444444 !important; }
- #navigation { width: 100%; position: relative; background: rgba(0, 0, 0, .5); z-index: 13; box-sizing: border-box; -webkit-transition: background 200ms cubic-bezier(0.55, 0.085, 0.68, 0.53); -moz-transition: background 200ms cubic-bezier(0.55, 0.085, 0.68, 0.53); -o-transition: background 200ms cubic-bezier(0.55, 0.085, 0.68, 0.53); -ms-transition: background 200ms cubic-bezier(0.55, 0.085, 0.68, 0.53); transition: background 200ms cubic-bezier(0.55, 0.085, 0.68, 0.53); }
+ #navigation { width: 100%;height: 50px; position: relative; background: rgba(0, 0, 0, .5); z-index: 13; box-sizing: border-box; -webkit-transition: background 200ms cubic-bezier(0.55, 0.085, 0.68, 0.53); -moz-transition: background 200ms cubic-bezier(0.55, 0.085, 0.68, 0.53); -o-transition: background 200ms cubic-bezier(0.55, 0.085, 0.68, 0.53); -ms-transition: background 200ms cubic-bezier(0.55, 0.085, 0.68, 0.53); transition: background 200ms cubic-bezier(0.55, 0.085, 0.68, 0.53); }
  #navigation-wrap { position: relative; max-width: 1140px; padding: 0 2em; margin: 0 auto; box-sizing: border-box; }
  @media (max-width: 991px) {
  #masthead-wrap { padding-top: 24px; padding-bottom: 24px; }
@@ -523,4 +523,96 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 border: 2px solid #c8a88e;
 
 
+}
+
+#element_12_1{
+ background: transparent;
+    border: none;
+}
+
+#element_12_2{
+ background: transparent;
+    border: none;
+}
+
+
+#map2 {
+    position: absolute;
+}
+
+
+
+
+
+
+
+#map2{
+   border: 2px solid #c8a88e;
+    bottom: 2px;
+    left: 10;
+    min-width: 1024px;
+    position: absolute;
+    top: 50px;
+    width: 99%;
+    height:790px;
+}
+
+
+
+.mainNav {
+    height: 41px;
+    width:99%;
+    background: #2e2e2e none repeat scroll 0 0;
+    
+    color: #fff;
+    text-shadow: none;
+    left: 10;
+    min-width: 1024px;
+}
+
+
+.mainNav ul {
+    display: block;
+    float: right;
+    height: 31px;
+    line-height: normal;
+    list-style: outside none none;
+    margin: 5px 0 0;
+    padding: 0;
+}
+
+.mainNav ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainNav ul li a {
+    background-image: url("https://www.crimereports.com/assets/top_nav_arrow-580c02cfaf59c1406840f7e70aced78c.png");
+    background-position: right 14px;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+   color: #d4b49a;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 0 2px;
+    padding: 7px 15px 8px 12px;
+    text-decoration: none;
+}
+
+
+
+#legend{
+   border: 2px solid #c8a88e;
+    bottom: 0px;
+    right: 0;
+   margin-top: 800px;
+   width:99%;
+    
+    position: relative;
+
+    
 }
